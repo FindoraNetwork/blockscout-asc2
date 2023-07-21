@@ -5,35 +5,35 @@ $dark-light: #313355; // tile light top share
 $labels-dark: #8a8dba; // header nav, labels
 $dark-stakes-banned-background: #3e314c;
 
-// Switcher
-.dark-mode-changer {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 36px;
-	height: 36px;
-	background: transparent;
-	border: none;
-	cursor: pointer;
-	margin-right: 5px;
-	outline: none !important;
-	box-shadow: none !important;
-	transition: .2s ease-in;
+// // Switcher
+// .dark-mode-changer {
+// 	display: inline-flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	width: 36px;
+// 	height: 36px;
+// 	background: transparent;
+// 	border: none;
+// 	cursor: pointer;
+// 	margin-right: 5px;
+// 	outline: none !important;
+// 	box-shadow: none !important;
+// 	transition: .2s ease-in;
 
-	&:hover {
-		opacity: .8;
-	}
+// 	&:hover {
+// 		opacity: .8;
+// 	}
 
-	svg path {
-		fill: #828ba0;
-	}
+// 	svg path {
+// 		fill: #828ba0;
+// 	}
 
-	&--dark {
-		svg path {
-			fill: $dark-primary;
-		}
-	}
-}
+// 	&--dark {
+// 		svg path {
+// 			fill: $dark-primary;
+// 		}
+// 	}
+// }
 
 .dark-theme-applied {
 	color: #fff;
@@ -53,9 +53,9 @@ $dark-stakes-banned-background: #3e314c;
 		}
 	}
 
-	.navbar-brand .navbar-logo {
-		filter: brightness(0) invert(1);
-	}
+	// .navbar-brand .navbar-logo {
+	// 	filter: brightness(0) invert(1);
+	// }
 
 	.navbar.navbar-primary .navbar-nav .nav-link {
 		color: $labels-dark;
