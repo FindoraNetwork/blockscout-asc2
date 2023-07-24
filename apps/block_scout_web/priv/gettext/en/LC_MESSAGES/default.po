@@ -2403,7 +2403,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:23
 #, elixir-autogen, elixir-format
-msgid "Zypher Game Medias"
+msgid "Zypher Games Medias"
 msgstr ""
 
 #: lib/block_scout_web/templates/layout/_footer.html.eex:25
